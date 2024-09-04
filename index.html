@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Upload Websitet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1016.0.min.js"></script>
+    <script src="app.js"></script>
+    <main class="container">
+        <header>
+            <div id="logo">
+                    <h1>
+                        iConvert 
+                    </h1>
+            </div>
+        </header>
+
+
+        <div class="container1">
+            <h1>Image</h1>
+            <h4>Choose an image to convert:</h4>
+            <input type="file" id="imageInput" accept="image/*">
+            <h4>Choose an image type:</h4>
+            <select id="Image">
+                <option selected disabled value="">
+                    Select Image format
+                </option>
+                <option value="png"> png</option>
+                <option value="jpg">jpg</option>
+                <option value="tiff">tiff</option>
+                <option value="bmp">bmp</option>
+               
+            </select>
+
+            <button id="print">Upload the image</button>
+            <br/> 
+
+    
+        </div>
+   
+
+    </main>
+</body>
+
+</html>
